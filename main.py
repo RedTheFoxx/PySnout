@@ -5,7 +5,7 @@ intents = discord.Intents.default()
 intents.messages = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-TOKEN = "MTA1MDU4NTA4ODI2MzQ2Mjk2NA.G1VIM_.zM24VrWVwjOng10o2D_cxaa6-hP94jzZTSsPG0"
+TOKEN = "TOKEN_HERE"
 
 
 @bot.event
