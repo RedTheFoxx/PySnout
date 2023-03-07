@@ -1,17 +1,20 @@
 import discord
 from discord.ext import commands
-from engine import *
 
-intents = discord.Intents.default()
-intents.messages = True
+intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-TOKEN = "TOKEN_HERE"
+
+TOKEN = "..."
 
 
 @bot.event
 async def on_ready():
     print("PySnout est en ligne !")
 
+
+@bot.command("play")
+async def play(ctx):
+    await ctx.send("Bientôt, je diffuserais de l'audio ! :musical_note:")
 
 bot.run(TOKEN)
