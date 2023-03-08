@@ -14,7 +14,7 @@ intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 
-TOKEN = "MTA1MDU4NTA4ODI2MzQ2Mjk2NA.GHtEV1.sFbxSfgyJtSuONrZ_smcngxtGadnRICps4pANQ"
+TOKEN = "..."
 
 
 @bot.event
