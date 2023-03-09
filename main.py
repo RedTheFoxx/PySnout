@@ -12,7 +12,7 @@ from engine import play_audio, download_audio
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-TOKEN = "MTA1MDU4NTA4ODI2MzQ2Mjk2NA.Ge9PlF.0yO2_Ox5-ZUC5NV90Gg-ZpcnT15QhUlcvIDeNs"
+TOKEN = "..."
 
 
 @bot.event
