@@ -5,6 +5,7 @@ from discord import FFmpegPCMAudio
 import yt_dlp
 
 player_is_playing = False
+queue = []
 
 
 def reset_player_is_playing():
